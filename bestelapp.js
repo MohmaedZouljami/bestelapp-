@@ -14,7 +14,7 @@ do{
 bestelling =  await userInput.question('kies tussen: friet (3€) hamburger (5€) frikandel (4€) type 4 als u wilt stoppen')
 switch(bestelling){
     case 'friet':
-        prijs += 3;
+        prijs += 6;
         break;
     case 'hamburger':
         prijs += 5;
@@ -67,4 +67,5 @@ function berekenKorting(prijs, kortingBon){
     console.log('totale prijs na korting: ' + totaal + 'euro. ')
 
     process.exit();
+
 
