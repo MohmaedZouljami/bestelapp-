@@ -20,7 +20,7 @@ switch(bestelling){
         prijs += 5;
         break;
     case 'frikandel':
-        prijs += 4;
+        prijs += 3;
         break;
 }
 console.log('uw som zit momenteel aan:' + prijs + 'euro. ')
@@ -67,6 +67,7 @@ function berekenKorting(prijs, kortingBon){
     console.log('totale prijs na korting: ' + totaal + 'euro. ')
 
     process.exit();
+
 
 
 
